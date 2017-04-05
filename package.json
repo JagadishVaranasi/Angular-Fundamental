@@ -8,7 +8,7 @@
     "tsc:w": "tsc -w",
     "test": "karma start karma.conf.js",
     "heroku-prebuild": "npm install -g http-server",
-    "postinstall": "ng build --aot -prod",
+  //  "postinstall": "ng build --aot -prod",
      "start": "node server.js",
     "deploy": "git push origin master && git push heroku master"
   },
@@ -46,6 +46,8 @@
   "npm": "3.10.9"
 },
   "devDependencies": {
+    "@angular/cli": "1.0.0",
+    "@angular/compiler-cli": "^4.0.0",
     "@types/core-js": "0.9.36",
     "@types/jasmine": "^2.5.38",
     "@types/node": "~6.0.46",
@@ -55,7 +57,11 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-coverage": "^1.1.1",
     "karma-jasmine": "^1.1.0",
-    "typescript": "~2.0.3"
+    "typescript": "~2.0.3",
+    "ts-node": "~2.0.0",
+    "tslint": "~4.5.0",
+    
+    
   },
   "repository": {}
 }
