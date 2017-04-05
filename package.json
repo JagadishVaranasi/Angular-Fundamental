@@ -8,7 +8,7 @@
     "tsc:w": "tsc -w",
     "test": "karma start karma.conf.js",
     "heroku-prebuild": "npm install -g http-server",
-     "postinstall": "ng build --aot -prod",
+     "postinstall": "postinstall-build lib \"npm run build-lib\"",
      "start": "node server.js",
     "deploy": "git push origin master && git push heroku master"
   },
