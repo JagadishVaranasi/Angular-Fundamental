@@ -13,4 +13,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: ng2-fundamentals
+      appname: ng2-fundamentals-jagdish
