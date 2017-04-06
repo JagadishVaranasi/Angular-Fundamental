@@ -1,1 +1,1 @@
-web: node Index.js
+web: node node_modules/ng2f-server/server.js
