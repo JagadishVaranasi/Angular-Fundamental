@@ -6,9 +6,9 @@
     "server": "node node_modules/ng2f-server/server.js",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "test": "karma start karma.conf.js",
+      "test": "karma start karma.conf.js",
     "heroku-prebuild": "npm install -g http-server",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+   
   },
   "keywords": [],
   "author": "",
