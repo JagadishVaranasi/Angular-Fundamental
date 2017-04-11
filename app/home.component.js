@@ -14,7 +14,10 @@ var eventshomeAppComponent = (function () {
 eventshomeAppComponent = __decorate([
     core_1.Component({
         selector: 'events-home',
-        template: "\n<h2> This is first Angular application developed with TDD apporach and integrated with circleCI via Github and deployed in heroku</h2>\n"
+        // template : `
+        // <h2> This is first Angular application developed with TDD apporach and integrated with circleCI via Github and deployed in heroku</h2>
+        // `
+        templateUrl: "/app/home.component.html"
     })
 ], eventshomeAppComponent);
 exports.eventshomeAppComponent = eventshomeAppComponent;

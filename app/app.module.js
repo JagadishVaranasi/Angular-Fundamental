@@ -8,10 +8,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var home_component_1 = require("./home.component");
-var events_app_component_1 = require("./events-app.component");
-var event_list_component_1 = require("./events/event-list.component");
-var event_thumbnail_component_1 = require("./events/event-thumbnail.component");
-var nav_bar_component_1 = require("./navigation/nav-bar.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -20,13 +16,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule],
-        declarations: [
-            home_component_1.eventshomeAppComponent,
-            events_app_component_1.eventsAppComponent,
-            event_list_component_1.EventListComponent,
-            event_thumbnail_component_1.EventThumbnailComponent,
-            nav_bar_component_1.NavigationBarComponent
-        ],
+        declarations: [home_component_1.eventshomeAppComponent],
         bootstrap: [home_component_1.eventshomeAppComponent]
     })
 ], AppModule);
